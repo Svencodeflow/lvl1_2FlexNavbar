@@ -1,0 +1,46 @@
+/* Generell */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Navbar */
+
+header {
+    background-image: url("https://unsplash.it/1920/1080");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+#nav p {
+    color: white;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-left: 3vh;
+}
+
+#nav div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3%;
+    font-size: 2rem;
+}
+
+#nav div a {
+    text-decoration: none;
+    color: white;
+}
+
